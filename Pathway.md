@@ -60,5 +60,39 @@ o	Clinical Informatics Specialist
 o	ServiceNow Developer (with a focus on HCLS or HRSD)
 By combining your GRC/IAM focus with her Clinical/HCLS focus, you two are essentially building a powerhouse "Enterprise Healthcare Architecture" skillset in your own home. It makes you both incredibly valuable to large hospital systems, payers (insurance companies), and medical device manufacturers.
 
+**TWeeks to my Plan suggest by gemini**
+1. Add "Threat Modeling" to your Identity Core
+You are building the "pipes" (Identity/Access via Microsoft, Governance via ServiceNow). You must now learn how to identify where the leaks are in those pipes.
+•	The Tweak: Before or during your SC-100 studies, spend time learning STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege) or PASTA (Process for Attack Simulation and Threat Analysis).
+•	Why: A GRC architect who can say, "I am configuring this ServiceNow control not just because it's required, but because it specifically mitigates this threat pathway in our Azure environment," will be hired over everyone else in the room.
+2. Connect the Data: The "System of Record" Concept
+You have three distinct platforms: Microsoft (Identity), ServiceNow (GRC), and Pega (Automation). The "architect" difference is how you connect them.
+•	The Tweak: In your GitHub notes, create a "Integration Mapping" document. For every GRC control you learn in ServiceNow, explicitly write down:
+o	What data do I need from Azure/Microsoft to prove this control?
+o	What bot/automation can I build in Pega to collect that data automatically instead of manually?
+•	Why: This proves you aren't just taking courses; you are building an integrated "Compliance-as-Code" engine.
+3. Emphasize "Business Impact" Over Technical Config
+You are already learning high-level technical skills. To reach that $170k–$220k+ architect salary range, you must be able to translate technical "bits and bytes" into business "risk and cost."
+•	The Tweak: As you finish your ServiceNow modules, read one or two articles on "Total Cost of Ownership (TCO) in IT" and "Risk Quantification."
+•	Why: An Architect’s job is often to justify the budget for their own projects. If you can tell a CFO, "Implementing this ServiceNow GRC module will reduce our manual audit preparation time by 60%, saving us $200k in labor costs annually," you become a strategic business asset, not just a technical administrator.
+4. For your Wife: Focus on "Clinical Interoperability"
+Since she is a nurse moving into HCLS, she should look at FHIR (Fast Healthcare Interoperability Resources).
+•	The Tweak: Even if she just learns the concept of FHIR—which is the standard way healthcare systems talk to each other—it will make her exponentially more valuable when she starts implementing ServiceNow in a hospital environment.
+•	Why: It connects her clinical knowledge (how patients move through care) with technical knowledge (how patient data moves through systems).
+Final Strategic Shift
+You are doing great by doing these simultaneously. To make this "stick" for recruiters, ensure your GitHub doesn't just list the courses. Add a "Portfolio" section that explains:
+"I designed an automated compliance framework that uses ServiceNow IRM to track risk, Microsoft Entra to enforce access policies, and Pega RPA to bridge legacy data gaps."
+That one sentence is worth more than ten certifications alone. Does this feel like the right level of "architect-focused" adjustment to your plan?
 
-
+To round out your profile as a Security Architect, you need to move from "learning tools" to "modeling risk." Threat modeling is how you prove to leadership that you aren't just checking boxes—you are actively designing a resilient system.
+Here is the best way to approach your learning, distinguishing between STRIDE (the "What") and PASTA (the "How").
+1. Recommended Learning Resources
+Instead of trying to find a single "PASTA" course, use these targeted resources to build your competency:
+•	Performing Threat Modeling with the PASTA Methodology: This is the gold-standard course for understanding the seven-stage PASTA workflow. It covers how to tie technical risks to business objectives.
+•	Threat Modeling | Learning Path (Infosec Institute): This path is excellent because it includes labs. You need to do hands-on modeling (drawing Data Flow Diagrams) rather than just reading about them.
+•	Secure Your AI: Threat Modeling (Coursera): Since you are building a modern architecture profile, this course is highly relevant. It teaches you how to apply STRIDE to complex systems, which gives you the "threat checklist" capability you’ll need inside the PASTA workflow.
+2. The Architect’s "Cheat Sheet" for Methodologies
+You don't need to be an expert in every framework; you need to know when to apply which:
+Framework,Best Use Case,Your Perspective (titles)
+STRIDE,Component level. Use this when you are reviewing a specific feature or API.,"""Can this be spoofed? Tampered with?"""
+PASTA,System level. Use this when presenting to stakeholders/management.,"""How does this threat impact our business revenue?"""
