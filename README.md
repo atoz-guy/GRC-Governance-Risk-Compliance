@@ -1,43 +1,96 @@
-# GRC-Governance-Risk-Compliance
+# GRC: Governance, Risk and Compliance
 
-That is a very wise distinction to make. GRC is fundamentally different from technical troubleshooting—it requires a shift from "How do I fix this?" to "How do I prove this is secure and compliant?"
+**Afiz (AJ) Jiwa** | UCSD graduate | Working toward ServiceNow GRC, SecOps and IRM implementation and architecture
 
-Because it deals with high-level strategy, policy, and audit-readiness, it should have its own dedicated time block. Treating it as a "separate beast" will prevent you from burning out on the technical side.
+This repo is where I keep my GRC work: framework notes, risk and compliance exercises, and links to the hands-on labs that back them up. My goal is to work in GRC with enough technical depth to understand the controls I'm auditing, not just the policy that asks for them.
 
-How to Structure your "GRC & Governance" Block
-Since you are not in a rush, dedicate a specific "Phase" to this in your long-term plan. Here is a suggested structure for when you decide to transition into this phase (e.g., after your SC-100/Cloud mastery):
+---
 
-1. Framework Fundamentals (The "Why")
-Before touching labs, you need to understand the languages you will be speaking.
-•	NIST CSF: The gold standard for risk management.
-•	ISO 27001: Focuses on the "Information Security Management System" (ISMS).
-•	SOC2: Focuses on the trust services criteria (Security, Availability, Processing Integrity, Confidentiality, and Privacy).
+## What I focus on
 
-2. The GRC Lab Approach (The "How")
-When you are ready for the labs, look for these types of activities:
-•	Gap Analysis: Take a technical environment (like your own business or your lab) and compare its current state against a framework (e.g., "Are we meeting NIST controls?").
-•	Risk Assessment: Learn to categorize risks based on likelihood and impact.
-•	Policy Drafting: Practice taking a technical rule (e.g., "MFA must be enforced") and writing the formal Information Security Policy that mandates it.
+- **Frameworks:** NIST CSF, ISO 27001, SOC 2
+- **Risk:** identifying risks, rating them by likelihood and impact, and tracking them in a risk register
+- **Compliance:** gap analysis against a framework, control mapping, audit evidence
+- **Policy:** turning a technical rule (for example "MFA is required for all admins") into a written policy someone can be held to
+- **Platform:** ServiceNow Risk and Compliance (IRM), SecOps, Vulnerability Response
+- **Threat modeling:** STRIDE for individual systems, PASTA when the conversation is about business impact
+- **Linux:** hardening, access control and logging checks, since a lot of compliance comes down to how servers are set up
+- **Data:** cleaning and analyzing security data with SQL, pandas and Power BI
 
-3. ServiceNow GRC Integration
-Since you are already working with ServiceNow, this is where you will tie it all together:
-•	Control Mapping: Learning how to map technical controls to compliance requirements within the platform.
-•	Issue Management: Taking a failed audit or a security incident and moving it through the GRC lifecycle in ServiceNow.
+---
 
-A Strategy for the "Overwhelming" Factor
-Since you want to avoid feeling overwhelmed, apply these "rules" to your study:
-•	One Framework at a Time: Don't try to learn NIST, SOC2, and ISO at once. Pick one (NIST CSF is usually the most logical starting point for an IT professional) and master its core concepts before moving on.
-•	Document the "Gap": Use your GitHub repository to document your GRC "tickets." If you perform a risk assessment, create a ticket for it. This keeps your GRC learning in the same "logical flow" as your technical learning.
-•	Consultant Mindset: Since you run businesses, think of your GRC study as "consulting for yourself." Ask, "If I were auditing my own business, what would I look for?" This turns a dry, academic topic into a practical business project.
+## In my own words
 
-Your Updated 4-Month Horizon
-Timeline	Focus Area	Goal
+**Why GRC?**
+I like seeing how everything connects. Security tools tell you something is wrong. GRC asks whether it matters, who owns it, and whether we can prove it's handled.
 
-Month 1	Cloud Security	Pass SC-300 & SC-100; solidify architecture knowledge.
-Month 2-3	Operations & Labs	Complete PHDA labs; maintain GitHub portfolio.
-Month 4+	GRC & Governance	Dedicated deep dive into NIST/ISO frameworks and ServiceNow GRC modules.
+**Why do you care so much about data?**
+Because security work is only as good as the data under it. ServiceNow won't even let you take the SIR or VR exams without Data Foundations first, and that makes sense. If the asset data is wrong, the incident goes to the wrong team and the vulnerability gets ranked wrong.
 
-By separating these, you allow your brain to build the Technical Foundation first, which makes the Governance Layer infinitely easier to understand later. You aren't just memorizing policy; you’ll understand the technical controls that the policy is meant to enforce.
+**What part do you like that others skip?**
+Getting the data right. Cleaning up records with SQL and pandas isn't exciting. It's like a long drive: fun for the first five minutes, then you just keep going because you know where you're headed. But that's what makes the results something people can trust.
 
-Does it help to see it laid out in a timeline like this, where you know that GRC has its own "reserved" spot on your calendar later?
+---
 
+## Certifications
+
+**ServiceNow**
+- Certified System Administrator (CSA), June 2026
+- CIS Risk and Compliance (CIS-RC), July 2026
+- **Security Operations (SecOps)**
+  - CIS Data Foundations (CIS-DF), Oct 2026: required before SIR and VR
+  - CIS Security Incident Response (CIS-SIR), Oct 2026
+  - CIS Vulnerability Response (CIS-VR), Oct 2026
+
+**Microsoft**
+- SC-100: Cybersecurity Architect Expert
+- SC-300: Identity and Access Administrator Associate
+- SC-401: Information Security Administrator Associate
+- AZ-104: Azure Administrator Associate
+- PL-300: Power BI Data Analyst Associate
+
+**Security and Cloud**
+- CompTIA Security+, Linux+, SecAI+
+- AWS Solutions Architect Associate (SAA-C03)
+- LPIC-1
+
+**Python**
+- PCEP, PCAP, PCPP1
+
+**ISACA**
+- CRISC: exam passed
+- CISM: up next
+- CISA: planned
+
+**Looking ahead (about 2 years)**
+- CompTIA CySA+
+- LPIC-2
+
+---
+
+## Projects
+
+| Project | What it shows |
+|---|---|
+| [Python-Automation-Lab](https://github.com/atoz-guy/Python-Automation-Lab) | GRC audit and ticket logger written in Python |
+| [ms365-compliance-governance-security-labs](https://github.com/atoz-guy/ms365-compliance-governance-security-labs) | Microsoft 365 compliance and governance configuration |
+| [azure-labs](https://github.com/atoz-guy/azure-labs) | Azure security and identity labs |
+| [CyberArk-PAM-Labs](https://github.com/atoz-guy/CyberArk-PAM-Labs) | Privileged access management |
+| [ServiceNow-](https://github.com/atoz-guy/ServiceNow-) | ServiceNow projects tied to my certifications |
+| [TCM-Enterprise-Security-Labs](https://github.com/atoz-guy/TCM-Enterprise-Security-Labs) | Incident investigation labs, including a phishing compromise case |
+
+---
+
+## What's coming to this repo
+
+- [ ] NIST CSF gap analysis of a small business (my own store, ATOZ Cyber Labs)
+- [ ] Risk register with likelihood and impact scoring
+- [ ] Sample information security policy set (access control, MFA, acceptable use)
+- [ ] Control mapping: framework requirement to technical control to evidence source
+- [ ] STRIDE threat model for one system with a data flow diagram
+
+---
+
+## Roadmap
+
+See [Pathway-update.md](Pathway-update.md) for my certification and learning plan.
