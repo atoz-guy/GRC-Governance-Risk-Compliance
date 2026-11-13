@@ -75,7 +75,7 @@ Getting the data right. Cleaning up records with SQL and pandas isn't exciting. 
 | [Python-Automation-Lab](https://github.com/atoz-guy/Python-Automation-Lab) | GRC audit and ticket logger written in Python |
 | [ms365-compliance-governance-security-labs](https://github.com/atoz-guy/ms365-compliance-governance-security-labs) | Microsoft 365 compliance and governance configuration |
 | [azure-labs](https://github.com/atoz-guy/azure-labs) | Azure security and identity labs |
-| [CyberArk-PAM-Labs](https://github.com/atoz-guy/CyberArk-PAM-Labs) | Privileged access management |
+| [Forward-Deployed-Identity-Security](https://github.com/atoz-guy/Cybersecurity-Technical-Portfolio/tree/main/Forward-Deployed-Identity-Security) | Work in progress: CyberArk PAM, Entra and ServiceNow integration |
 | [ServiceNow-](https://github.com/atoz-guy/ServiceNow-) | ServiceNow projects tied to my certifications |
 | [Cybersecurity-Technical-Portfolio](https://github.com/atoz-guy/Cybersecurity-Technical-Portfolio) | TCM PSAA SOC labs plus GRC investigations: a phishing and BEC case with risk scores and NIST controls |
 
