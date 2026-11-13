@@ -94,3 +94,5 @@ Getting the data right. Cleaning up records with SQL and pandas isn't exciting. 
 ## Roadmap
 
 See [Pathway.md](Pathway.md) for my certification and learning plan.
+
+I'm also learning healthcare GRC (HIPAA). My reading path and notes are in [Healthcare-GRC](Healthcare-GRC).
