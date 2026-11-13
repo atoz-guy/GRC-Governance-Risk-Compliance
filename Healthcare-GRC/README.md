@@ -46,6 +46,8 @@ Among other things, the proposal would:
 
 The MFA requirement ties straight back to the top finding in my [phishing investigation](https://github.com/atoz-guy/Cybersecurity-Technical-Portfolio/blob/main/GRC-Labs/Analysis-After-It-Happens/Lab-002-Phishing-Investigation.md).
 
+> **Note:** a lot of this list lines up with what I already know. The asset inventory requirement is my ServiceNow Data Foundations (CIS-DF) cert, vulnerability scanning is my Vulnerability Response (CIS-VR) cert, and the risk analysis is CRISC. Good to bring up with a healthcare mentor.
+
 ---
 
 ## How it connects to what I know
