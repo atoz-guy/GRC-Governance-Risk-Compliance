@@ -77,7 +77,7 @@ Getting the data right. Cleaning up records with SQL and pandas isn't exciting. 
 | [azure-labs](https://github.com/atoz-guy/azure-labs) | Azure security and identity labs |
 | [CyberArk-PAM-Labs](https://github.com/atoz-guy/CyberArk-PAM-Labs) | Privileged access management |
 | [ServiceNow-](https://github.com/atoz-guy/ServiceNow-) | ServiceNow projects tied to my certifications |
-| [TCM-Enterprise-Security-Labs](https://github.com/atoz-guy/TCM-Enterprise-Security-Labs) | Incident investigation labs, including a phishing compromise case |
+| [Cybersecurity-Technical-Portfolio](https://github.com/atoz-guy/Cybersecurity-Technical-Portfolio) | TCM PSAA SOC labs plus GRC investigations: privileged access review and phishing/BEC, with risk scores and NIST controls |
 
 ---
 
