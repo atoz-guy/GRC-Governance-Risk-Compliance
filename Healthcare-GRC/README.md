@@ -26,15 +26,25 @@ The Security Rule is built on three kinds of safeguards:
 |---|---|---|
 | 1 | [HHS: Summary of the HIPAA Security Rule](https://www.hhs.gov/ocr/privacy/hipaa/understanding/srsummary.html) | The official plain-language overview. Start here. |
 | 2 | [NIST SP 800-66 Rev 2](https://csrc.nist.gov/pubs/sp/800/66/r2/final) | NIST's guide to implementing the Security Rule (Feb 2024). Maps HIPAA to NIST CSF and SP 800-53, which I already know. Also covers how to do a HIPAA risk analysis. |
-| 3 | [Paubox: HHS pushes final Security Rule update to 2027](https://www.paubox.com/blog/hhs-pushes-final-hipaa-security-rule-update-to-2027) | What's changing and where it stands |
+| 3 | [HHS: Fact sheet on the proposed Security Rule update](https://www.hhs.gov/hipaa/for-professionals/security/hipaa-security-rule-nprm/factsheet/index.html) | What's changing, straight from the agency writing the rule |
+| 4 | [Paubox: HHS pushes final Security Rule update to 2027](https://www.paubox.com/blog/hhs-pushes-final-hipaa-security-rule-update-to-2027) | Latest status and the delay to 2027 |
 
 ---
 
 ## What's changing
 
-HHS proposed the first major update to the Security Rule in over a decade (published January 2025). As of mid-2026 it is **still proposed, not law**, and final action has been pushed to at least July 2027. The current rule stays in force until then.
+HHS proposed the first major update to the Security Rule since 2013 (issued December 2024, published January 2025). As of mid-2026 it is **still proposed, not law**, and final action has been pushed to at least July 2027. The current rule stays in force until then.
 
-Among other things, the proposal would make MFA a clear **requirement**. That ties straight back to the top finding in my [phishing investigation](https://github.com/atoz-guy/Cybersecurity-Technical-Portfolio/blob/main/GRC-Labs/Analysis-After-It-Happens/Lab-002-Phishing-Investigation.md).
+Among other things, the proposal would:
+
+- Remove the "addressable" option and make nearly every specification **required**
+- Require **multi-factor authentication**, with limited exceptions
+- Require **encryption** of ePHI at rest and in transit
+- Require a **technology asset inventory and network map**, updated at least every 12 months
+- Require **vulnerability scanning** every 6 months and **penetration testing** every 12 months
+- Require a **compliance audit** at least every 12 months
+
+The MFA requirement ties straight back to the top finding in my [phishing investigation](https://github.com/atoz-guy/Cybersecurity-Technical-Portfolio/blob/main/GRC-Labs/Analysis-After-It-Happens/Lab-002-Phishing-Investigation.md).
 
 ---
 
