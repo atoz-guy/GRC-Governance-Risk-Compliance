@@ -6,6 +6,27 @@ How I'm building toward a GRC role. Microsoft and cloud cover the technical cont
 
 ---
 
+## How I see it
+
+**GRC Playground is the bubble.** It shows how GRC can control things, how it's used, and how much reach it has. Anyone looking at it can understand what GRC does and what it can do.
+
+**ServiceNow is the platform that makes it real.** Most companies already run on it, at least for ticketing, and many use it for much more. I haven't found anything else that covers GRC as completely.
+
+**Every other tool feeds the bubble.** Before I add a tool, I ask: which control does it help me enforce or prove? If it doesn't strengthen a control, it can wait.
+
+```
+                    GRC Playground
+            (the bubble: what GRC can control)
+                          │
+      ┌───────────┬───────┴────────┬──────────────┐
+      │           │                │              │
+   CyberArk     Okta /          ServiceNow     Python
+  privileged    Entra          workflow and   risk scoring
+   access       identity       audit evidence  and automation
+```
+
+---
+
 ## Where I am now
 
 **Done**
@@ -23,9 +44,11 @@ How I'm building toward a GRC role. Microsoft and cloud cover the technical cont
 - Building hands-on ServiceNow projects to go with the certs
 
 **Next year**
+- GRC Playground labs: the center of everything else
+- ServiceNow PDI builds, then CAD (Certified Application Developer) and CTA (Certified Technical Architect)
+- CyberArk labs and exam: privileged access control
+- Okta: identity control, after CyberArk
 - ISACA CGEIT
-- ServiceNow PDI labs, then CAD (Certified Application Developer) and CTA (Certified Technical Architect)
-- CyberArk
 
 **About two years out**
 - CompTIA CySA+: the next step up from Security+, and passing it renews Security+ too
