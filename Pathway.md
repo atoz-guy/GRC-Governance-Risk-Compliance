@@ -16,6 +16,18 @@ How I'm building toward a GRC role. Microsoft and cloud cover the technical cont
 
 **Every other tool feeds the bubble.** Before I add a tool, I ask: which control does it help me enforce or prove? If it doesn't strengthen a control, it can wait.
 
+### An example
+
+Without ISACA, I'm the tech who shows up with a problem. With ISACA, the CISO sees that I understand their job: risk, budget, accountability. So when I bring them a ticket, they're ready to listen.
+
+Then GRC Playground and ServiceNow give me the technical side, and I can explain it in plain words:
+
+- **What's happening:** the risk, in business terms
+- **What I can do:** the control that fixes it
+- **How I'll hand it off:** tracked in ServiceNow, with owners and proof it's done
+
+That's the forward deployed role as a cybersecurity specialist: the person who speaks both languages, leadership and technical, and connects them.
+
 ```
                     GRC Playground
             (the bubble: what GRC can control)
