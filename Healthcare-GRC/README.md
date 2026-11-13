@@ -52,13 +52,14 @@ The MFA requirement ties straight back to the top finding in my [phishing invest
 
 ## How it connects to what I know
 
-| HIPAA Security Rule | NIST 800-53 | Where I've worked on it |
-|---|---|---|
-| Access control | AC-2, AC-3, AC-6 | Azure RBAC labs, CyberArk PAM track |
-| Person or entity authentication | IA-2 | Entra Security Defaults lab (MFA) |
-| Audit controls | AU-2 | ServiceNow SecOps |
-| Security awareness training | AT-2 | Phishing investigation, Security-Awareness-Videos |
-| Risk analysis | RA-3 | CRISC, my risk matrix |
+| HIPAA Security Rule | NIST 800-53 | Where I've worked on it | Next step |
+|---|---|---|---|
+| Access control | AC-2, AC-3, AC-6 | Azure RBAC labs, CyberArk PAM track | Finish the [CyberArk PAM labs](https://github.com/atoz-guy/Cybersecurity-Technical-Portfolio/tree/main/Forward-Deployed-Identity-Security/CyberArk-PAM) and GRC Playground [Lab 03: IAM Policy Audits](https://github.com/atoz-guy/Cybersecurity-Technical-Portfolio/tree/main/GRC-Labs/Engineering-Before-It-Happens/03-IAM-Policy-Audits) |
+| Person or entity authentication | IA-2 | Entra Security Defaults lab (MFA) | GRC Playground [Lab 04: MFA for Privileged Accounts](https://github.com/atoz-guy/Cybersecurity-Technical-Portfolio/tree/main/GRC-Labs/Engineering-Before-It-Happens/04-MFA-for-Privileged-Accounts) and the M365 Conditional Access lab |
+| Audit controls | AU-2 | ServiceNow SecOps | Build an audit log review in my ServiceNow PDI |
+| Security awareness training | AT-2 | Phishing investigation, Security-Awareness-Videos | Make a short healthcare-themed awareness video (phishing aimed at clinic staff) |
+| Risk analysis | RA-3 | CRISC, my risk matrix | HIPAA gap assessment of a fictional small clinic, using the 800-66 method |
+| Encryption (at rest and in transit) | SC-8, SC-28 | Not yet | M365 labs 1 and 2: [DLP and sensitivity labels](https://github.com/atoz-guy/Cybersecurity-Technical-Portfolio/tree/main/Cloud-Security-Labs/M365) |
 
 *I'll confirm these mappings against the 800-66 crosswalk tables as I read it.*
 
