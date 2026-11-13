@@ -56,7 +56,7 @@ Getting the data right. Cleaning up records with SQL and pandas isn't exciting. 
 
 **Google**
 - Google Cybersecurity
-- Google IT Support (through San Diego Workforce)
+- Google IT Support (through the San Diego Workforce Partnership "Cybersecurity & IT Support" program)
 - Google IT Automation with Python
 - Google Data Analytics
 
