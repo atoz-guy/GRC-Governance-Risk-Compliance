@@ -73,8 +73,8 @@ Getting the data right. Cleaning up records with SQL and pandas isn't exciting. 
 | Project | What it shows |
 |---|---|
 | [Python-Automation-Lab](https://github.com/atoz-guy/Python-Automation-Lab) | GRC audit and ticket logger written in Python |
-| [ms365-compliance-governance-security-labs](https://github.com/atoz-guy/ms365-compliance-governance-security-labs) | Microsoft 365 compliance and governance configuration |
-| [azure-labs](https://github.com/atoz-guy/azure-labs) | Azure security and identity labs |
+| [Microsoft 365 labs](https://github.com/atoz-guy/Cybersecurity-Technical-Portfolio/tree/main/Cloud-Security-Labs/M365) | Purview DLP, sensitivity labels, Compliance Manager, retention, Entra |
+| [Azure labs](https://github.com/atoz-guy/Cybersecurity-Technical-Portfolio/tree/main/Cloud-Security-Labs/Azure) | AZ-104: RBAC, subscriptions, hub-and-spoke networking |
 | [Forward-Deployed-Identity-Security](https://github.com/atoz-guy/Cybersecurity-Technical-Portfolio/tree/main/Forward-Deployed-Identity-Security) | Work in progress: CyberArk PAM, Entra and ServiceNow integration |
 | [ServiceNow-](https://github.com/atoz-guy/ServiceNow-) | ServiceNow projects tied to my certifications |
 | [Cybersecurity-Technical-Portfolio](https://github.com/atoz-guy/Cybersecurity-Technical-Portfolio) | TCM PSAA SOC labs plus GRC investigations: a phishing and BEC case with risk scores and NIST controls |
