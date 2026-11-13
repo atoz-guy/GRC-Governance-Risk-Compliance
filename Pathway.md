@@ -64,6 +64,9 @@ That's the forward deployed role as a cybersecurity specialist: the person who s
 - Okta: identity control, after CyberArk
 - ISACA CGEIT
 
+**Optional: if job postings ask for it**
+- Archer Certified Associate (Level 1): Archer is ServiceNow's main GRC platform competitor. The exam is open book, 70 questions in 90 minutes, 70% to pass, $100, with one retake within 60 days. You can't open Archer's training courses during the exam, so save notes or PDFs beforehand. ([Archer exam tips](https://community.archerirm.com/hc/en-us/articles/52147200637075-Archer-Platform-Certification-Preparation-Tips))
+
 **About two years out**
 - CompTIA CySA+: the next step up from Security+, and passing it renews Security+ too
 - LPIC-2: deeper Linux, which matters for auditing how servers are hardened and logged
