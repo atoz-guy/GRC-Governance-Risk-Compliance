@@ -77,7 +77,7 @@ Getting the data right. Cleaning up records with SQL and pandas isn't exciting. 
 | [Azure labs](https://github.com/atoz-guy/Cybersecurity-Technical-Portfolio/tree/main/Cloud-Security-Labs/Azure) | AZ-104: RBAC, subscriptions, hub-and-spoke networking |
 | [Forward-Deployed-Identity-Security](https://github.com/atoz-guy/Cybersecurity-Technical-Portfolio/tree/main/Forward-Deployed-Identity-Security) | Work in progress: CyberArk PAM, Entra and ServiceNow integration |
 | [ServiceNow-](https://github.com/atoz-guy/ServiceNow-) | ServiceNow projects tied to my certifications |
-| [Cybersecurity-Technical-Portfolio](https://github.com/atoz-guy/Cybersecurity-Technical-Portfolio) | TCM PSAA SOC labs plus GRC investigations: a phishing and BEC case with risk scores and NIST controls |
+| [Cybersecurity-Technical-Portfolio](https://github.com/atoz-guy/Cybersecurity-Technical-Portfolio) | SOC labs plus GRC-Labs: a credential phishing investigation (after it happens) and policy-as-code labs (before it happens) |
 
 ---
 
