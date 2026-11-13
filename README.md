@@ -93,4 +93,4 @@ Getting the data right. Cleaning up records with SQL and pandas isn't exciting. 
 
 ## Roadmap
 
-See [Pathway-update.md](Pathway-update.md) for my certification and learning plan.
+See [Pathway.md](Pathway.md) for my certification and learning plan.
