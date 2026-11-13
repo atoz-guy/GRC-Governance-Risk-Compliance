@@ -54,6 +54,12 @@ Getting the data right. Cleaning up records with SQL and pandas isn't exciting. 
 - AWS Solutions Architect Associate (SAA-C03)
 - LPIC-1
 
+**Google**
+- Google Cybersecurity
+- Google IT Support (through San Diego Workforce)
+- Google IT Automation with Python
+- Google Data Analytics
+
 **Python**
 - PCEP, PCAP, PCPP1
 

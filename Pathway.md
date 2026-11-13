@@ -14,6 +14,7 @@ How I'm building toward a GRC role. Microsoft and cloud cover the technical cont
 - CompTIA: Security+, Linux+, SecAI+
 - AWS SAA-C03, LPIC-1
 - Python: PCEP, PCAP, PCPP1
+- Google: Cybersecurity, IT Support, IT Automation with Python, Data Analytics
 - ISACA CRISC exam
 
 **Now**
