@@ -1,4 +1,4 @@
-# GRC: Governance, Risk and Compliance
+# GRC: Governance, Risk and Compliance 
 
 **Afiz (AJ) Jiwa** | UCSD graduate | Working toward ServiceNow GRC, SecOps and IRM implementation and architecture
 
