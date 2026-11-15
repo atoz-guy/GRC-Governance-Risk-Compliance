@@ -1,6 +1,6 @@
 # Healthcare GRC
 
-*Learning in progress.* I'm building toward GRC work in healthcare. My starting point is real: I've worked in data entry and hospital billing, so I've handled patient information on the job. This folder is where I learn the security and compliance side of it.
+*Learning in progress.* I'm building toward GRC work in healthcare. My starting point is real: I've worked in data entry and hospital billing, so I've handled patient information on the job. This folder is where I learn the security and compliance side of it. 
 
 ---
 
