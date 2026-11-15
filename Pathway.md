@@ -1,6 +1,6 @@
 # GRC Learning Pathway
 
-**Goal:** ServiceNow GRC, SecOps and IRM Implementation and Technical Architect
+**Goal:** ServiceNow GRC, SecOps and IRM Implementation and Technical Architect 
 
 How I'm building toward a GRC role. Microsoft and cloud cover the technical controls, ServiceNow handles governance and compliance workflow, and ISACA gives me the audit and risk foundation.
 
