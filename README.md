@@ -78,6 +78,7 @@ Getting the data right. Cleaning up records with SQL and pandas isn't exciting. 
 
 | Project | What it shows |
 |---|---|
+| [grc-portfolio](https://github.com/atoz-guy/grc-portfolio) | Excel GRC tools: CMMC Level 1 readiness dashboard and IAM & API access hygiene scorecard, each with a 2-page executive summary |
 | [Python-Automation-Lab](https://github.com/atoz-guy/Python-Automation-Lab) | GRC audit and ticket logger written in Python |
 | [Microsoft 365 labs](https://github.com/atoz-guy/Cybersecurity-Technical-Portfolio/tree/main/Cloud-Security-Labs/M365) | Purview DLP, sensitivity labels, Compliance Manager, retention, Entra |
 | [Azure labs](https://github.com/atoz-guy/Cybersecurity-Technical-Portfolio/tree/main/Cloud-Security-Labs/Azure) | AZ-104: RBAC, subscriptions, hub-and-spoke networking |
